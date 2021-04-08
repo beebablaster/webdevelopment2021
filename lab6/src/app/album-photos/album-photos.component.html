@@ -1,0 +1,7 @@
+<h2>Photos:</h2>
+<button (click)="returnBack()">Return Back</button>
+<ul>
+  <li *ngFor="let photo of photos">
+    <img [src]="photo.url">
+  </li>
+</ul>
